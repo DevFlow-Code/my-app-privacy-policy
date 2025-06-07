@@ -1,0 +1,52 @@
+/* إعداد الخطوط والألوان */
+body {
+  font-family: 'Cairo', sans-serif;
+  background: linear-gradient(to right, #f7f9fc, #eef1f7);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+/* الحاوية العامة */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+  margin-top: 50px;
+}
+
+/* رأس الصفحة */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #007bff;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+header p {
+  color: #888;
+  font-size: 0.9em;
+}
+
+/* المحتوى */
+.content p {
+  line-height: 2;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+/* التذييل */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #aaa;
+}
